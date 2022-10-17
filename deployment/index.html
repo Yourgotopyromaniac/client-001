@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/clash-display" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c69f58432.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body id="bodyID">
+    <nav>
+        <div id="nav-interior">
+            <div id="logo" class="magic-hover magic-hover__square" >
+                <div id="animated-logo" >
+                    <img class="logo-piece" src="images/Fill (2).png" alt="" id="D">
+                    <img class="logo-piece" src="images/Fill (5).png" alt="" id="A">
+                    <img class="logo-piece" src="images/Fill (2).png" alt="" id="M1">
+                    <img class="logo-piece" src="images/Fill (2).png" alt="" id="M2">
+                    <img class="logo-piece" src="images/Fill (3).png" alt="" id="inm" >
+                    <img class="logo-piece" src="images/Fill.png"  alt="" id="inm2">
+                    <img class="logo-piece" src="images/Fill (4).png" alt="" id="dot" >
+                </div>
+            </div>
+
+            <div id="switch" class="switch">
+                <label onclick="bgChange()" id="switch-canvas" class="switch-canvas">                         
+                    
+                    <div id="horizon">
+                        <i id="sun" class="fa-solid fa-sun"></i>
+                        <i id="moon" class="fa-solid fa-moon"></i>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </nav>
+    <div id="app">
+        <section id="intro-cont" >
+
+            <div class="magic-hover magic-hover__square" id="intro-text">
+                <h1>Hi, I'm Damilola ,</h1> 
+                <h1>I'm a </h1> 
+                    <h1>
+                    <span id="item"> 
+        
+                      <span id="header-skills">UI/UX Designer</span>
+        
+                        <span id="door-container">
+                            <span class="door" id="left-door"></span><span class="door" id="right-door"></span>
+                        </span> 
+                        <span id="cover" class="cover"></span>
+                    </span>
+                    </h1>
+            </div>
+
+                
+        </section>
+
+        <div id="rotator" class="magic-hover magic-hover__circle">  
+            
+        </div>     
+        <section id="about">
+
+            <div id="bio">
+                <div id="text-interior" class="text-interior">
+                    <h2 class="fade-in">Meet Me</h2>
+                    <span class="about-text fade-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis, turpis vitae auctor faucibus, enim lorem tempus nulla, eget imperdiet dolor turpis in nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse ac tempus massa. In a imperdiet diam, eget lobortis tortor. Cras non diam non dolor blandit egestas. Quisque placerat eros sed vehicula tincidunt. Nulla facilisi. Vivamus sed ipsum augue. Vivamus blandit, quam at luctus interdum, orci augue pretium purus, vestibulum cursus urna ante nec nisi.
+                        </span>
+                </div>
+    
+                <div id= "image-cont">
+                    <div class="fade-in" id="top-border"></div>
+                    <div class="fade-in" id="bottom-border"></div>
+                    <img class="fade-in magic-hover magic-hover__square"  src="https://via.placeholder.com/400.png/000/fff" alt="">
+                </div>
+            </div>
+            <div id="skillset">
+                <h3 class="skillset-header fade-in">Skills</h3>
+                <div class="marquee">
+                    <div class="track">
+                      <div class="content">                        
+                            <span>·</span> 
+                            <span class="staat">Typography</span>
+                            <span>·</span>
+                            <span class="poiret" >Prototyping</span>    
+                            <span>·</span>
+                            <span class="clash">Design</span>
+                            <span>·</span>
+                            <span class="nanum">UI&UX</span>
+                            <span>·</span> 
+                            <span class="staat">Typography</span>
+                            <span>·</span>
+                            <span class="poiret" >Prototyping</span>    
+                            <span>·</span>
+                            <span class="clash">Design</span>
+                            <span>·</span>
+                            <span class="nanum">UI&UX</span>
+                            <span>·</span> 
+                            <span class="staat">Typography</span>
+                            <span>·</span>
+                            <span class="poiret" >Prototyping</span>    
+                            <span>·</span>
+                            <span class="clash">Design</span>
+                            <span>·</span>
+                            <span class="nanum">UI&UX</span>
+                            <span>·</span> 
+                            <span class="staat">Typography</span>
+                            <span>·</span>
+                            <span class="poiret" >Prototyping</span>    
+                            <span>·</span>
+                            <span class="clash">Design</span>
+                            <span>·</span>
+                            <span class="nanum">UI&UX</span>
+                        </div>
+                    </div>
+                  </div>
+
+                  <h3 class="skillset-header sh-right fade-in">Tools</h3>
+                  <div class="marquee">
+                    <div class="track marquee2">
+                      <div class="content">                        
+                            <span>·</span> 
+                            <span class="staat">Figma</span>
+                            <span>·</span>
+                            <span class="poiret" >Adobe</span>    
+                            <span>·</span>
+                            <span class="clash">Miro</span>
+                            <span>·</span>
+                            <span class="nanum">Whimsical</span>
+                            <span>·</span> 
+                            <span class="staat">Figma</span>
+                            <span>·</span>
+                            <span class="poiret" >Adobe</span>    
+                            <span>·</span>
+                            <span class="clash">Miro</span>
+                            <span>·</span>
+                            <span class="nanum">Whimsical</span>
+                            <span>·</span> 
+                            <span class="staat">Figma</span>
+                            <span>·</span>
+                            <span class="poiret" >Adobe</span>    
+                            <span>·</span>
+                            <span class="clash">Miro</span>
+                            <span>·</span>
+                            <span class="nanum">Whimsical</span>
+                            <span>·</span> 
+                            <span class="staat">Figma</span>
+                            <span>·</span>
+                            <span class="poiret" >Adobe</span>    
+                            <span>·</span>
+                            <span class="clash">Miro</span>
+                            <span>·</span>
+                            <span class="nanum">Whimsical</span>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+
+        </section>
+
+        <section id="projects">
+            <div class="section-interior" id="projects-interior">
+                <div class="proj-header-container">
+                    <h2 id="projects-header">Selected Projects.</h2>
+                </div>  
+
+                <div id="projects-all" >
+
+                    <div class="project-container">
+
+                        <figure id="stich-tile" class="project-tile effect-bubba magic-hover magic-hover__square">
+                            <img class="preview" src="images/stich.png" alt="" id="stich-img">
+                            <figcaption> 
+                                
+                                <h2 class="project-name">STICH</h2>
+                                <span class="project-full magic-hover magic-hover__square"> <p>View Case Study on Behance &nearr; </p> <i class="fa-brands fa-square-behance"></i></span> 
+
+                                <a href="#">View more</a>
+                                
+                            </figcaption>
+                        </figure>
+
+                        <div class="proj-desc">
+                            <h3 class="project-name">Stich</h3>
+                            <p class="pronun">/stɪʧ/</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis, turpis vitae auctor faucibus,
+                            enim lorem tempus nulla, eget imperdiet dolor turpis in nibh. Interdum et malesuada fames ac ante 
+                            ipsum primis in faucibus. Suspendisse ac tempus massa. In a imperdiet diam, eget lobortis tortor.</p>
+
+                            <span class="project-full-outer magic-hover magic-hover__square"> <p>View Case Study on Behance &nearr; </p> <i class="fa-brands fa-square-behance"></i></span>
+                        </div>
+
+                    </div>
+                    
+                    <div class="project-container">
+
+                        <figure id="jobhub-tile" class="project-tile effect-bubba magic-hover magic-hover__square">
+                            <img class="preview" src="images/jobhub.png" alt="" id="jobhub-img">
+                            <figcaption> 
+                                
+                                <h2 class="project-name">JOBHUB</h2>
+                                <span class="project-full magic-hover magic-hover__square"> <p>View Case Study on Behance &nearr; </p> <i class="fa-brands fa-square-behance"></i></span>
+
+                                <a href="#">View more</a>
+                            
+                            </figcaption>
+                        </figure>
+
+                        <div class="proj-desc">
+                            <h3 class="project-name">Jobhub</h3>
+                            
+                            <p class="pronun">/ʤɒb·hʌb/</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis, turpis vitae auctor faucibus,
+                            enim lorem tempus nulla, eget imperdiet dolor turpis in nibh. Interdum et malesuada fames ac ante 
+                            ipsum primis in faucibus. Suspendisse ac tempus massa. In a imperdiet diam, eget lobortis tortor.</p>
+
+                            <span class="project-full-outer magic-hover magic-hover__square"> <p>View Case Study on Behance &nearr; </p> <i class="fa-brands fa-square-behance"></i></span>
+                        </div>
+
+                    </div>
+
+                    <div class="project-container">
+
+                        <figure id="cooked-tile" class="project-tile effect-bubba magic-hover magic-hover__square">
+                            <img class="preview" src="images/cooked.png" alt="" id="cooked-img">
+                            <figcaption> 
+                                
+                                <h2 class="project-name">COOKED</h2>
+                                <span class="project-full magic-hover magic-hover__square"> <p>View Case Study on Behance &nearr; </p> <i class="fa-brands fa-square-behance"></i></span>
+
+                                <a href="#">View more</a>
+                            
+                            </figcaption>
+                        </figure>
+
+                        <div class="proj-desc">
+                            <h3 class="project-name">CookEd</h3>
+                            <p class="pronun">/kʊk·ɛd/</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis, turpis vitae auctor faucibus,
+                            enim lorem tempus nulla, eget imperdiet dolor turpis in nibh. Interdum et malesuada fames ac ante 
+                            ipsum primis in faucibus. Suspendisse ac tempus massa. In a imperdiet diam, eget lobortis tortor.</p>
+
+                            <span class="project-full-outer magic-hover magic-hover__square"> <p>View Case Study on Behance &nearr; </p> <i class="fa-brands fa-square-behance"></i></span>
+                        </div>
+
+                    </div>
+
+                    <div class="project-container">
+
+                        <figure id="reat-tile" class="project-tile effect-bubba magic-hover magic-hover__square">
+                            <img class="preview" src="images/Reat.png" alt="" id="reat-img">
+                            <figcaption> 
+                                
+                                <h2 class="project-name">REAT</h2>
+                                
+                                <span class="project-full magic-hover magic-hover__square"> <p>View Case Study on Behance &nearr; </p> <i class="fa-brands fa-square-behance"></i></span>
+
+                                <a href="#">View more</a>
+                            
+                            </figcaption>
+                        </figure>
+
+                        <div class="proj-desc">
+                            <h3 class="project-name">Reat</h3>
+                            <p class="pronun">/riːt/</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis, turpis vitae auctor faucibus,
+                            enim lorem tempus nulla, eget imperdiet dolor turpis in nibh. Interdum et malesuada fames ac ante 
+                            ipsum primis in faucibus. Suspendisse ac tempus massa. In a imperdiet diam, eget lobortis tortor.</p>
+
+                            <span class="project-full-outer magic-hover magic-hover__square"> <p>View Case Study on Behance &nearr; </p> <i class="fa-brands fa-square-behance"></i></span>
+                        </div>
+
+                    </div>
+
+                    <div class="project-container">
+
+                        <figure id="nemos-tile" class="project-tile effect-bubba magic-hover magic-hover__square">
+                            <img class="preview" src="images/nemos.png" alt="" id="nemos-img" >
+                            <figcaption> 
+                                
+                                <h2 class="project-name">NEMOS</h2>
+                                <span class="project-full magic-hover magic-hover__square"> <p>View Case Study on Behance &nearr; </p> <i class="fa-brands fa-square-behance"></i></span>
+
+                                <a href="#">View more</a>
+                            
+                            </figcaption>
+                        </figure>
+
+                        <div class="proj-desc">
+                            <h3 class="project-name">Nemos</h3>
+                            <p class="pronun">/ne·mɒs/</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis, turpis vitae auctor faucibus,
+                            enim lorem tempus nulla, eget imperdiet dolor turpis in nibh. Interdum et malesuada fames ac ante 
+                            ipsum primis in faucibus. Suspendisse ac tempus massa. In a imperdiet diam, eget lobortis tortor.</p>
+
+                            <span class="project-full-outer magic-hover magic-hover__square"> <p>View Case Study on Behance &nearr; </p> <i class="fa-brands fa-square-behance"></i></span>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+        <section id="perp-scroll" class="perpscroll">
+            <h2 id="ps-header">I Design For...</h2>
+            <div id="interior-ps">
+                <div id="devices">
+                    <div id="smartphone" class="sliding-device">
+                        <img src="images/phone.png" alt="">
+                    </div>
+                    <div id="tablet" class="sliding-device">
+                        <img src="images/tablet.png" alt="">
+                    </div>
+                    <div id="laptop" class="sliding-device">
+                        <img src="images/laptop.png" alt="">
+                    </div>
+                    <div id="monitor" class="sliding-device">
+                        <img src="" alt="">
+                    </div>
+
+                </div>
+                <div id="ps-text">
+                    <h2 id="ps-text1">Every Screen,</h2>
+                    <h2 id="ps-text2">Every Device,</h2>
+                    <h2 id="ps-text3">Every Size!</h2>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="footer-interior">
+                <div id="contact">
+                    <div id="contact-header">
+                        <h3>Let's Talk!</h3>
+                    </div>
+
+                    <div id="contact-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis, turpis vitae auctor faucibus,
+                        </p>
+                    </div>
+                    <div id="contact-links">
+                        <div class="link-container magic-hover magic-hover__square">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <a href="#">LinkedIn</a>
+                            <svg width="16" height="16" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0631 1.24934L0.749355 12.5631M12.2507 1.43694C10.6312 3.43159 8.33031 8.35889 11.3319 11.3605M11.8755 1.06174C9.88081 2.68119 5.14111 5.1697 2.13952 2.1681" stroke="white"></path></svg>
+                        </div>
+
+                        <div class="link-container magic-hover magic-hover__square">
+                            <i class="fa-brands fa-square-behance"></i>
+                            <a href="#">Behance</a>
+                            <svg width="16" height="16" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0631 1.24934L0.749355 12.5631M12.2507 1.43694C10.6312 3.43159 8.33031 8.35889 11.3319 11.3605M11.8755 1.06174C9.88081 2.68119 5.14111 5.1697 2.13952 2.1681" stroke="white"></path></svg>
+                        </div>
+
+                        <div class="link-container magic-hover magic-hover__square">
+                            <i class="fa-brands fa-twitter"></i>
+                            <a href="#">Twitter</a>
+                            <svg width="16" height="16" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0631 1.24934L0.749355 12.5631M12.2507 1.43694C10.6312 3.43159 8.33031 8.35889 11.3319 11.3605M11.8755 1.06174C9.88081 2.68119 5.14111 5.1697 2.13952 2.1681" stroke="white"></path></svg>
+                        </div>
+
+                        <div class="link-container magic-hover magic-hover__square">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="#">Email</a>
+                            <svg width="16" height="16" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0631 1.24934L0.749355 12.5631M12.2507 1.43694C10.6312 3.43159 8.33031 8.35889 11.3319 11.3605M11.8755 1.06174C9.88081 2.68119 5.14111 5.1697 2.13952 2.1681" stroke="white"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div id="logo-animated">
+                    <div id="LA-interior">
+                        <img class="logo-piece" src="images/Fill (2).png" alt="" id="D-LA">
+                        <img class="logo-piece" src="images/Fill (5).png" alt="" id="A-LA">
+                        <img class="logo-piece" src="images/Fill (2).png" alt="" id="M1-LA">
+                        <img class="logo-piece" src="images/Fill (2).png" alt="" id="M2-LA">
+                        <img class="logo-piece" src="images/Fill.png"  alt="" id="inm2-LA">
+                        <img class="logo-piece" src="images/Fill (3).png" alt="" id="inm-LA" >
+                        <img class="logo-piece" src="images/Fill (4).png" alt="" id="dot-LA" >
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+</body>
+</html>
+<script src="app.js"></script>
+<script src="sTrigger.js"></script>
+<script type="text/javascript">
+    options = {
+	"cursorOuter": "circle-basic",
+	"hoverEffect": "circle-move",
+	"hoverItemMove": false,
+	"defaultCursor": true,
+	"outerWidth": 50,
+	"outerHeight": 50
+      };
+    magicMouse(options);
+</script>
